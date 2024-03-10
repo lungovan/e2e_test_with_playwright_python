@@ -1,0 +1,150 @@
+2024-03-10 23:56:51,883 - INFO - MARCH 10 - APRIL 23 In Celsius [{'date': 'Sunday, March 10', 'temperature_high': '36', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®24°', 'main_weather': 'Breezy this evening; otherwise, turning cloudy'}, {'date': 'Monday, March 11', 'temperature_high': '37', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Very warm with times of clouds and sun'}, {'date': 'Tuesday, March 12', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Wednesday, March 13', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Partly sunny and very warm; a couple of showers in the afternoon'}, {'date': 'Thursday, March 14', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Friday, March 15', 'temperature_high': '36', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Very warm with clouds to start, then sunshine returns'}, {'date': 'Saturday, March 16', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Remaining very warm with clouds giving way to some sun'}, {'date': 'Sunday, March 17', 'temperature_high': '36', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Partly sunny'}, {'date': 'Monday, March 18', 'temperature_high': '36', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Plenty of sunshine'}, {'date': 'Tuesday, March 19', 'temperature_high': '35', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®39°', 'main_weather': 'Sun through high clouds'}, {'date': 'Wednesday, March 20', 'temperature_high': '36', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Thursday, March 21', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Mostly cloudy and very warm with a little rain'}, {'date': 'Friday, March 22', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Saturday, March 23', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Sunny to partly cloudy and very warm'}, {'date': 'Sunday, March 24', 'temperature_high': '36', 'temperature_low': '24', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Sunshine and very warm'}, {'date': 'Monday, March 25', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Tuesday, March 26', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Mostly cloudy and very warm'}, {'date': 'Wednesday, March 27', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®39°', 'main_weather': 'Cloudy and very warm'}, {'date': 'Thursday, March 28', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Very warm with intervals of clouds and sunshine'}, {'date': 'Friday, March 29', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Very warm with intervals of clouds and sunshine; a thunderstorm in spots in the afternoon'}, {'date': 'Saturday, March 30', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Turning cloudy and very warm'}, {'date': 'Sunday, March 31', 'temperature_high': '37', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Cloudy and very warm'}, {'date': 'Monday, April 1', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Mostly sunny and very warm; a passing afternoon shower'}, {'date': 'Tuesday, April 2', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Sunny to partly cloudy and very warm'}, {'date': 'Wednesday, April 3', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Very warm with clouds limiting sun'}, {'date': 'Thursday, April 4', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Friday, April 5', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Increasing cloudiness and very warm'}, {'date': 'Saturday, April 6', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Sunday, April 7', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Monday, April 8', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Tuesday, April 9', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Very warm with sunshine and patchy clouds'}, {'date': 'Wednesday, April 10', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Rather cloudy and very warm'}, {'date': 'Thursday, April 11', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Friday, April 12', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Saturday, April 13', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Sunday, April 14', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Monday, April 15', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Tuesday, April 16', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®43°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Wednesday, April 17', 'temperature_high': '37', 'temperature_low': '27', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Very warm with some sun'}, {'date': 'Thursday, April 18', 'temperature_high': '36', 'temperature_low': '27', 'temperature_real_feel': 'RealFeel®41°', 'main_weather': 'Very warm with intervals of clouds and sunshine'}, {'date': 'Friday, April 19', 'temperature_high': '37', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®40°', 'main_weather': 'Very warm with clouds giving way to some sun'}, {'date': 'Saturday, April 20', 'temperature_high': '37', 'temperature_low': '27', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Very warm with increasing amounts of sunshine'}, {'date': 'Sunday, April 21', 'temperature_high': '36', 'temperature_low': '26', 'temperature_real_feel': 'RealFeel®42°', 'main_weather': 'Increasing cloudiness and very warm'}, {'date': 'Monday, April 22', 'temperature_high': '37', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®39°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Tuesday, April 23', 'temperature_high': '36', 'temperature_low': '25', 'temperature_real_feel': 'RealFeel®39°', 'main_weather': 'Mostly sunny and very warm'}]
+2024-03-10 23:56:58,266 - INFO - MARCH 10 - APRIL 23 In Fahrenheit [{'date': 'Sunday, March 10', 'temperature_high': '97', 'temperature_low': '75', 'temperature_real_feel': 'RealFeel®75°', 'main_weather': 'Breezy this evening; otherwise, turning cloudy'}, {'date': 'Monday, March 11', 'temperature_high': '98', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®103°', 'main_weather': 'Very warm with times of clouds and sun'}, {'date': 'Tuesday, March 12', 'temperature_high': '97', 'temperature_low': '77', 'temperature_real_feel': 'RealFeel®105°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Wednesday, March 13', 'temperature_high': '96', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Partly sunny and very warm; a couple of showers in the afternoon'}, {'date': 'Thursday, March 14', 'temperature_high': '96', 'temperature_low': '77', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Friday, March 15', 'temperature_high': '96', 'temperature_low': '75', 'temperature_real_feel': 'RealFeel®105°', 'main_weather': 'Very warm with clouds to start, then sunshine returns'}, {'date': 'Saturday, March 16', 'temperature_high': '96', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®103°', 'main_weather': 'Remaining very warm with clouds giving way to some sun'}, {'date': 'Sunday, March 17', 'temperature_high': '97', 'temperature_low': '75', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Partly sunny'}, {'date': 'Monday, March 18', 'temperature_high': '96', 'temperature_low': '74', 'temperature_real_feel': 'RealFeel®104°', 'main_weather': 'Plenty of sunshine'}, {'date': 'Tuesday, March 19', 'temperature_high': '96', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®102°', 'main_weather': 'Sun through high clouds'}, {'date': 'Wednesday, March 20', 'temperature_high': '97', 'temperature_low': '75', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Thursday, March 21', 'temperature_high': '96', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®105°', 'main_weather': 'Mostly cloudy and very warm with a little rain'}, {'date': 'Friday, March 22', 'temperature_high': '97', 'temperature_low': '77', 'temperature_real_feel': 'RealFeel®107°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Saturday, March 23', 'temperature_high': '96', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Sunny to partly cloudy and very warm'}, {'date': 'Sunday, March 24', 'temperature_high': '97', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®104°', 'main_weather': 'Sunshine and very warm'}, {'date': 'Monday, March 25', 'temperature_high': '98', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®107°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Tuesday, March 26', 'temperature_high': '98', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®105°', 'main_weather': 'Mostly cloudy and very warm'}, {'date': 'Wednesday, March 27', 'temperature_high': '97', 'temperature_low': '77', 'temperature_real_feel': 'RealFeel®103°', 'main_weather': 'Cloudy and very warm'}, {'date': 'Thursday, March 28', 'temperature_high': '97', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Very warm with intervals of clouds and sunshine'}, {'date': 'Friday, March 29', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®109°', 'main_weather': 'Very warm with intervals of clouds and sunshine; a thunderstorm in spots in the afternoon'}, {'date': 'Saturday, March 30', 'temperature_high': '97', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Turning cloudy and very warm'}, {'date': 'Sunday, March 31', 'temperature_high': '98', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®107°', 'main_weather': 'Cloudy and very warm'}, {'date': 'Monday, April 1', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®109°', 'main_weather': 'Mostly sunny and very warm; a passing afternoon shower'}, {'date': 'Tuesday, April 2', 'temperature_high': '97', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®109°', 'main_weather': 'Sunny to partly cloudy and very warm'}, {'date': 'Wednesday, April 3', 'temperature_high': '98', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®107°', 'main_weather': 'Very warm with clouds limiting sun'}, {'date': 'Thursday, April 4', 'temperature_high': '98', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®109°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Friday, April 5', 'temperature_high': '97', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®107°', 'main_weather': 'Increasing cloudiness and very warm'}, {'date': 'Saturday, April 6', 'temperature_high': '97', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Sunday, April 7', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®103°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Monday, April 8', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®105°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Tuesday, April 9', 'temperature_high': '97', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®104°', 'main_weather': 'Very warm with sunshine and patchy clouds'}, {'date': 'Wednesday, April 10', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®104°', 'main_weather': 'Rather cloudy and very warm'}, {'date': 'Thursday, April 11', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Friday, April 12', 'temperature_high': '97', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Saturday, April 13', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®107°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Sunday, April 14', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Monday, April 15', 'temperature_high': '97', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®109°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Tuesday, April 16', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®110°', 'main_weather': 'Mostly sunny and very warm'}, {'date': 'Wednesday, April 17', 'temperature_high': '98', 'temperature_low': '80', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Very warm with some sun'}, {'date': 'Thursday, April 18', 'temperature_high': '97', 'temperature_low': '80', 'temperature_real_feel': 'RealFeel®106°', 'main_weather': 'Very warm with intervals of clouds and sunshine'}, {'date': 'Friday, April 19', 'temperature_high': '98', 'temperature_low': '79', 'temperature_real_feel': 'RealFeel®104°', 'main_weather': 'Very warm with clouds giving way to some sun'}, {'date': 'Saturday, April 20', 'temperature_high': '98', 'temperature_low': '80', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Very warm with increasing amounts of sunshine'}, {'date': 'Sunday, April 21', 'temperature_high': '97', 'temperature_low': '80', 'temperature_real_feel': 'RealFeel®108°', 'main_weather': 'Increasing cloudiness and very warm'}, {'date': 'Monday, April 22', 'temperature_high': '98', 'temperature_low': '78', 'temperature_real_feel': 'RealFeel®101°', 'main_weather': 'Partly sunny and very warm'}, {'date': 'Tuesday, April 23', 'temperature_high': '97', 'temperature_low': '76', 'temperature_real_feel': 'RealFeel®102°', 'main_weather': 'Mostly sunny and very warm'}]
+2024-03-10 23:56:58,266 - INFO - Sunday, March 10
+2024-03-10 23:56:58,266 - INFO - Temperature In Celsius:36/24
+2024-03-10 23:56:58,267 - INFO - Temperature In Fahrenheit:97/75
+2024-03-10 23:56:58,267 - INFO - Temperature In Fahrenheit Should Be:96/75
+2024-03-10 23:56:58,267 - INFO - Monday, March 11
+2024-03-10 23:56:58,267 - INFO - Temperature In Celsius:37/24
+2024-03-10 23:56:58,267 - INFO - Temperature In Fahrenheit:98/76
+2024-03-10 23:56:58,268 - INFO - Temperature In Fahrenheit Should Be:98/75
+2024-03-10 23:56:58,268 - INFO - Tuesday, March 12
+2024-03-10 23:56:58,268 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,268 - INFO - Temperature In Fahrenheit:97/77
+2024-03-10 23:56:58,268 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,269 - INFO - Wednesday, March 13
+2024-03-10 23:56:58,269 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,269 - INFO - Temperature In Fahrenheit:96/78
+2024-03-10 23:56:58,269 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,269 - INFO - Saturday, March 16
+2024-03-10 23:56:58,270 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,270 - INFO - Temperature In Fahrenheit:96/76
+2024-03-10 23:56:58,270 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,270 - INFO - Sunday, March 17
+2024-03-10 23:56:58,270 - INFO - Temperature In Celsius:36/24
+2024-03-10 23:56:58,271 - INFO - Temperature In Fahrenheit:97/75
+2024-03-10 23:56:58,271 - INFO - Temperature In Fahrenheit Should Be:96/75
+2024-03-10 23:56:58,271 - INFO - Monday, March 18
+2024-03-10 23:56:58,271 - INFO - Temperature In Celsius:36/24
+2024-03-10 23:56:58,271 - INFO - Temperature In Fahrenheit:96/74
+2024-03-10 23:56:58,271 - INFO - Temperature In Fahrenheit Should Be:96/75
+2024-03-10 23:56:58,272 - INFO - Tuesday, March 19
+2024-03-10 23:56:58,272 - INFO - Temperature In Celsius:35/25
+2024-03-10 23:56:58,272 - INFO - Temperature In Fahrenheit:96/76
+2024-03-10 23:56:58,272 - INFO - Temperature In Fahrenheit Should Be:95/77
+2024-03-10 23:56:58,272 - INFO - Wednesday, March 20
+2024-03-10 23:56:58,273 - INFO - Temperature In Celsius:36/24
+2024-03-10 23:56:58,273 - INFO - Temperature In Fahrenheit:97/75
+2024-03-10 23:56:58,273 - INFO - Temperature In Fahrenheit Should Be:96/75
+2024-03-10 23:56:58,273 - INFO - Thursday, March 21
+2024-03-10 23:56:58,273 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,274 - INFO - Temperature In Fahrenheit:96/76
+2024-03-10 23:56:58,274 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,274 - INFO - Friday, March 22
+2024-03-10 23:56:58,274 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,274 - INFO - Temperature In Fahrenheit:97/77
+2024-03-10 23:56:58,274 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,275 - INFO - Saturday, March 23
+2024-03-10 23:56:58,275 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,275 - INFO - Temperature In Fahrenheit:96/76
+2024-03-10 23:56:58,275 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,275 - INFO - Sunday, March 24
+2024-03-10 23:56:58,276 - INFO - Temperature In Celsius:36/24
+2024-03-10 23:56:58,276 - INFO - Temperature In Fahrenheit:97/76
+2024-03-10 23:56:58,276 - INFO - Temperature In Fahrenheit Should Be:96/75
+2024-03-10 23:56:58,276 - INFO - Wednesday, March 27
+2024-03-10 23:56:58,276 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,277 - INFO - Temperature In Fahrenheit:97/77
+2024-03-10 23:56:58,277 - INFO - Temperature In Fahrenheit Should Be:96/77
+2024-03-10 23:56:58,277 - INFO - Thursday, March 28
+2024-03-10 23:56:58,277 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,277 - INFO - Temperature In Fahrenheit:97/78
+2024-03-10 23:56:58,277 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,277 - INFO - Friday, March 29
+2024-03-10 23:56:58,277 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,279 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,279 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,279 - INFO - Saturday, March 30
+2024-03-10 23:56:58,279 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,279 - INFO - Temperature In Fahrenheit:97/78
+2024-03-10 23:56:58,279 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,279 - INFO - Sunday, March 31
+2024-03-10 23:56:58,279 - INFO - Temperature In Celsius:37/25
+2024-03-10 23:56:58,279 - INFO - Temperature In Fahrenheit:98/78
+2024-03-10 23:56:58,280 - INFO - Temperature In Fahrenheit Should Be:98/77
+2024-03-10 23:56:58,280 - INFO - Monday, April 1
+2024-03-10 23:56:58,280 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,280 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,280 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,280 - INFO - Tuesday, April 2
+2024-03-10 23:56:58,280 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,280 - INFO - Temperature In Fahrenheit:97/79
+2024-03-10 23:56:58,280 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,280 - INFO - Friday, April 5
+2024-03-10 23:56:58,280 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit:97/79
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,281 - INFO - Saturday, April 6
+2024-03-10 23:56:58,281 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit:97/78
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,281 - INFO - Sunday, April 7
+2024-03-10 23:56:58,281 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,281 - INFO - Monday, April 8
+2024-03-10 23:56:58,281 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,281 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,282 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,282 - INFO - Tuesday, April 9
+2024-03-10 23:56:58,282 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,282 - INFO - Temperature In Fahrenheit:97/78
+2024-03-10 23:56:58,282 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,282 - INFO - Wednesday, April 10
+2024-03-10 23:56:58,282 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,282 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,282 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,282 - INFO - Thursday, April 11
+2024-03-10 23:56:58,282 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,283 - INFO - Friday, April 12
+2024-03-10 23:56:58,283 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit:97/78
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,283 - INFO - Saturday, April 13
+2024-03-10 23:56:58,283 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,283 - INFO - Sunday, April 14
+2024-03-10 23:56:58,283 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,283 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,284 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,284 - INFO - Monday, April 15
+2024-03-10 23:56:58,284 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,284 - INFO - Temperature In Fahrenheit:97/78
+2024-03-10 23:56:58,284 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,284 - INFO - Tuesday, April 16
+2024-03-10 23:56:58,284 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,284 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,284 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,284 - INFO - Thursday, April 18
+2024-03-10 23:56:58,284 - INFO - Temperature In Celsius:36/27
+2024-03-10 23:56:58,284 - INFO - Temperature In Fahrenheit:97/80
+2024-03-10 23:56:58,285 - INFO - Temperature In Fahrenheit Should Be:96/80
+2024-03-10 23:56:58,285 - INFO - Friday, April 19
+2024-03-10 23:56:58,285 - INFO - Temperature In Celsius:37/26
+2024-03-10 23:56:58,285 - INFO - Temperature In Fahrenheit:98/79
+2024-03-10 23:56:58,285 - INFO - Temperature In Fahrenheit Should Be:98/78
+2024-03-10 23:56:58,285 - INFO - Sunday, April 21
+2024-03-10 23:56:58,285 - INFO - Temperature In Celsius:36/26
+2024-03-10 23:56:58,285 - INFO - Temperature In Fahrenheit:97/80
+2024-03-10 23:56:58,285 - INFO - Temperature In Fahrenheit Should Be:96/78
+2024-03-10 23:56:58,285 - INFO - Monday, April 22
+2024-03-10 23:56:58,285 - INFO - Temperature In Celsius:37/25
+2024-03-10 23:56:58,285 - INFO - Temperature In Fahrenheit:98/78
+2024-03-10 23:56:58,286 - INFO - Temperature In Fahrenheit Should Be:98/77
+2024-03-10 23:56:58,286 - INFO - Tuesday, April 23
+2024-03-10 23:56:58,286 - INFO - Temperature In Celsius:36/25
+2024-03-10 23:56:58,286 - INFO - Temperature In Fahrenheit:97/76
+2024-03-10 23:56:58,286 - INFO - Temperature In Fahrenheit Should Be:96/77
