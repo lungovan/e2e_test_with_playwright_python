@@ -24,13 +24,13 @@ jobs:
       run: python -m playwright install --with-deps
 
     - name: Run your tests
-      run: pytest
+      run: pytest --html=test_artifacts/report/report.html
 
     - name: Archive logs
       uses: actions/upload-artifact@v4
       with:
         name: test_artifacts
         path: |
-          test_artifacts/logs/
+          test_artifacts/test_logs/
           test_artifacts/report/
           test_artifacts/screenshots/
