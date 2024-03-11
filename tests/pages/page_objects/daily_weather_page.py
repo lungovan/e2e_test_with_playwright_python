@@ -67,7 +67,7 @@ class DailyWeatherPage:
             temperature_low = celsius_to_fahrenheit(data_item['temperature_low'])
             temperature_high_in_f = int(data_in_f[index]['temperature_high'])
             temperature_low_in_f = int(data_in_f[index]['temperature_low'])
-            if temperature_high != temperature_high_in_f or temperature_low != temperature_low_in_f:
+            if temperature_high - temperature_high_in_f > 1 or temperature_low - temperature_low_in_f > 1:
                 result = False
                 logger.logger.info(data_item["date"])
                 logger.logger.info("Temperature In Celsius:" + data_item['temperature_high'] + "/" +

@@ -1,5 +1,6 @@
-from playwright.sync_api import Page
+from playwright.sync_api import Page, expect
 from ..locators.home_page_locators import HomeBaseLocators
+from ..locators.search_result_page_locators import SearchResultPageLocators
 
 
 class HomePage:
@@ -20,6 +21,7 @@ class HomePage:
 
     def submit_search(self):
         self.search_icon_element.click()
+        expect(self.page.locator(SearchResultPageLocators.SEARCH_RESULT_HEADING)).to_be_attached()
 
     def get_page_instance(self) -> Page:
         return self.page

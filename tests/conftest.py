@@ -11,6 +11,10 @@ from tests.pages.locators.search_result_page_locators import SearchResultPageLoc
 from tests.utils.logger import TestLogger
 from tests.utils.date_helper import get_current_time_str
 
+TEST_REPORT_DIR = "test_artifacts/report"
+TEST_SCREENSHOT_DIR = "test_artifacts/test_logs"
+TEST_LOG_DIR = "test_artifacts/test_logs"
+
 
 @pytest.fixture(scope="session")
 def base_url(pytestconfig: pytest.Config):
@@ -36,7 +40,7 @@ def browser_context(browser):
 @pytest.fixture(scope="function")
 def logger():
     test_name = os.environ.get('PYTEST_CURRENT_TEST').split(':')[-1].split(' ')[0]
-    return TestLogger(test_name)
+    return TestLogger(test_name, TEST_LOG_DIR)
 
 
 @pytest.fixture(scope="session")
@@ -62,16 +66,18 @@ def pytest_runtest_makereport(item, call):
     # execute all other hooks to obtain the report object
     outcome = yield
     rep = outcome.get_result()
-    if not os.path.exists("test_artifacts/report"):
-        os.makedirs("test_artifacts/report")
+
+    if not os.path.exists(TEST_REPORT_DIR):
+        os.makedirs(TEST_REPORT_DIR)
 
     if rep.when == "call" and rep.failed:
         # A test failed, let's capture a screenshot
-        if not os.path.exists("test_artifacts/screenshots"):
-            os.makedirs("test_artifacts/screenshots")
+        if not os.path.exists(TEST_SCREENSHOT_DIR):
+            os.makedirs(TEST_SCREENSHOT_DIR)
+
         browser = item.funcargs['browser']
         contexts = browser.contexts
         for context in contexts:
             pages = context.pages
             for page in pages:
-                page.screenshot(path=f"test_artifacts/screenshots/failed_test_{item.name}_{get_current_time_str()}.png")
+                page.screenshot(path=f"{TEST_SCREENSHOT_DIR}/failed_test_{item.name}_{get_current_time_str()}.png")

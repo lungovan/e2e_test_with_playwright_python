@@ -5,10 +5,29 @@ from tests.pages.page_objects.search_result_page import SearchResultPage
 from tests.utils.temperature_helper import celsius_to_fahrenheit, TemperatureUnit
 
 
-def test_daily_weather_temperatures_in_both_units_are_equal(browser_context, home_page, setting_page, logger):
+def _open_daily_weather_page(home_page, location_str="District 1, Ho Chi Minh") -> DailyWeatherPage:
     """
 
-    :param browser_context:
+    :param home_page:
+    :param location_str:
+    :return:
+    """
+
+    home_page.load()
+    home_page.fill_search_input(location_str)
+    home_page.submit_search()
+    search_result_page = SearchResultPage(home_page.get_page_instance())
+    search_result_page.navigate_to_result_item_detail(1)
+    search_result_page.navigate_to_daily_weather()
+    daily_weather_page = DailyWeatherPage(search_result_page.page)
+
+    return daily_weather_page
+
+
+def test_daily_weather_temperatures_in_both_units_are_equal(home_page, setting_page, logger,
+                                                            location_str="District 1, Ho Chi Minh"):
+    """
+
     :param home_page:
     :param setting_page:
     :param logger:
@@ -19,16 +38,8 @@ def test_daily_weather_temperatures_in_both_units_are_equal(browser_context, hom
 
     # Open Home page, search a location, navigate to Daily Weather Page
     # Get daily weather information in Celsius
-    home_page.load()
-    home_page.fill_search_input("District 1, Ho Chi Minh")
-    home_page.submit_search()
-    expect(home_page.page.locator(SearchResultPageLocators.SEARCH_RESULT_HEADING)).to_be_attached()
-    search_result_page = SearchResultPage(home_page.get_page_instance())
-    search_result_page.navigate_to_result_item_detail(1)
-    search_result_page.page.mouse.click(100, 200)
-    search_result_page.navigate_to_daily_weather()
-    daily_weather_page = DailyWeatherPage(search_result_page.page)
-    dates_title = daily_weather_page.get_dates_title()
+    daily_weather_page = _open_daily_weather_page(home_page, location_str)
+    dates_title = daily_weather_page.get_dates_title()  # Example: MARCH 11 - APRIL 24
     url = daily_weather_page.page.url
     data_in_c = daily_weather_page.get_daily_data()
 
