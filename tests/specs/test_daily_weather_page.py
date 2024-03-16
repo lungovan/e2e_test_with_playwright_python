@@ -39,12 +39,12 @@ def test_daily_weather_temperatures_in_both_units_are_equal(home_page, setting_p
     # Open Home page, search a location, navigate to Daily Weather Page
     # Get daily weather information in Celsius
     daily_weather_page = _open_daily_weather_page(home_page, location_str)
-    dates_title = daily_weather_page.get_dates_title()  # Example: MARCH 11 - APRIL 24
+    #
     url = daily_weather_page.page.url
     data_in_c = daily_weather_page.get_daily_data()
 
     # Save weather information to log file
-    logger.logger.info(dates_title + " In Celsius " + str(data_in_c))
+    logger.logger.info("Data In Celsius " + str(data_in_c))
 
     # Set unit to Fahrenheit
     setting_page.load()
@@ -54,9 +54,9 @@ def test_daily_weather_temperatures_in_both_units_are_equal(home_page, setting_p
     # Get daily weather information in Fahrenheit
     daily_weather_page.page.goto(url)
     data_in_f = daily_weather_page.get_daily_data()
-
+    #
     # Save weather information to log file
-    logger.logger.info(dates_title + " In Fahrenheit " + str(data_in_f))
+    logger.logger.info("Date In Fahrenheit " + str(data_in_f))
 
     # Compare temperature values in Celsius and temperature values in Fahrenheit
     result = daily_weather_page.validate_temperature_in_celsius_and_fahrenheit(data_in_c, data_in_f, logger)

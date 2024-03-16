@@ -12,7 +12,7 @@ from tests.utils.logger import TestLogger
 from tests.utils.date_helper import get_current_time_str
 
 TEST_REPORT_DIR = "test_artifacts/report"
-TEST_SCREENSHOT_DIR = "test_artifacts/test_logs"
+TEST_SCREENSHOT_DIR = "test_artifacts/screenshots"
 TEST_LOG_DIR = "test_artifacts/test_logs"
 
 
