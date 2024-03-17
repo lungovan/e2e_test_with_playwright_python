@@ -32,7 +32,9 @@ def browser():
 def browser_context(browser):
     custom_user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
     context = browser.new_context(user_agent=custom_user_agent, viewport={"width": 1800, "height": 1000})
+    #context.tracing.start(screenshots=True, snapshots=True)
     yield context
+    #context.tracing.stop(path="test_artifacts/test_logs/trace.zip")
     context.close()
     browser.close()
 

@@ -59,29 +59,37 @@ class DailyWeatherPage:
         :return: list
         """
         return_data = []
-        # https://www.accuweather.com/en/vn/ho-chi-minh-city/353981/daily-weather-forecast/353981
-        # https://www.accuweather.com/en/vn/ho-chi-minh-city/353981/morning-weather-forecast/353981?day=1
 
-        url = self.page.url
-        location_id = url.split("/")[-1]
-        url_base = url.split(location_id)[0]
-        day_segments = ["morning", "evening"]
-
+        # Get list of dates
         day_index = 1
         dates = []
         for date_weather_card in self.date_weather_cards:
             if day_index > number_of_day:
                 break
-            day_of_week = date_weather_card.locator(DailyWeatherLocators.DATE).inner_text()
-            day_and_month = date_weather_card.locator(DailyWeatherLocators.DATE2).inner_text()
+            day_of_week = date_weather_card.locator(DailyWeatherLocators.DATE_OF_WEEK).inner_text()
+            day_and_month = date_weather_card.locator(DailyWeatherLocators.DATE_WITH_MONTH).inner_text()
             date = format_date(day_of_week, day_and_month)
             dates.append(date)
             day_index = day_index + 1
 
+        location_id = self.page.url.split("/")[-1]
+        url_base = self.page.url.split(location_id)[0]
+        day_segments = ["morning", "evening"]
+        # Go to each date's weather detail pages to get ìnformation
+        # https://www.accuweather.com/en/vn/ho-chi-minh-city/353981/daily-weather-forecast/353981
+        # https://www.accuweather.com/en/vn/ho-chi-minh-city/353981/morning-weather-forecast/353981?day=1
+
         return_data = []
+
+        # [{'Sunday, March 17': {'morning': {'temperature': '35', 'temperature_real_feel': 'RealFeel® 40°',
+        #                                    'main_weather': 'Partly sunny and warm', 'humidity': '59%'},
+        #                        'evening': {'temperature': '27', 'temperature_real_feel': 'RealFeel® 31°',
+        #                                    'main_weather': 'Clear', 'humidity': '74%'}}}
+        # ]
+
         day_index = 1
         for date in range(number_of_day):
-            date_str = dates[day_index-1]
+            date_str = dates[day_index - 1]
             date_dict = {f"{date_str}": {}}
             for day_segment in day_segments:
                 segment_dict = {f"{day_segment}": {}}
@@ -98,41 +106,3 @@ class DailyWeatherPage:
             day_index = day_index + 1
 
         return return_data
-
-    def validate_temperature_in_celsius_and_fahrenheit(self, data_in_c, data_in_f, logger) -> bool:
-        """
-
-        :param data_in_c:
-        :param data_in_f:
-        :param logger:
-        :return:
-        """
-        result = True
-        if len(data_in_c) == 0 or len(data_in_f) == 0:
-            result = False
-        if len(data_in_c) != len(data_in_f):
-            result = False
-
-        index = 0
-        for data_item in data_in_c:
-
-            for key in data_item.keys():
-
-                each_day_data = data_item[key]
-
-                for segment_key in each_day_data.keys():
-
-                    data = each_day_data[segment_key]
-                    temperature_in_c = data["temperature"]
-                    expected_temperature_high_in_f = celsius_to_fahrenheit(temperature_in_c)
-                    temperature_in_f = data_in_f[index][key][segment_key]["temperature"]
-
-                    if abs(int(temperature_in_f) - int(expected_temperature_high_in_f)) > 1:
-                        result = False
-                        logger.logger.info(f"Data discrepancy on date {key}. Temperature in C = {temperature_in_c}."
-                                           f" Temperature in F = {temperature_in_f}. Expected temperature in F = "
-                                           f"{expected_temperature_high_in_f}")
-
-            index = index + 1
-
-        return result

@@ -2,7 +2,8 @@ from playwright.sync_api import expect
 from tests.pages.locators.search_result_page_locators import SearchResultPageLocators
 from tests.pages.page_objects.daily_weather_page import DailyWeatherPage
 from tests.pages.page_objects.search_result_page import SearchResultPage
-from tests.utils.temperature_helper import celsius_to_fahrenheit, TemperatureUnit
+from tests.utils.temperature_helper import celsius_to_fahrenheit, TemperatureUnit, \
+    validate_temperature_in_celsius_and_fahrenheit
 
 
 def _open_daily_weather_page(home_page, location_str="District 1, Ho Chi Minh") -> DailyWeatherPage:
@@ -59,6 +60,6 @@ def test_daily_weather_temperatures_in_both_units_are_equal(home_page, setting_p
     logger.logger.info("Date In Fahrenheit " + str(data_in_f))
 
     # Compare temperature values in Celsius and temperature values in Fahrenheit
-    result = daily_weather_page.validate_temperature_in_celsius_and_fahrenheit(data_in_c, data_in_f, logger)
+    result = validate_temperature_in_celsius_and_fahrenheit(data_in_c, data_in_f, logger)
 
     assert result, "The variable should be True"
